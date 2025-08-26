@@ -24,7 +24,10 @@ format:
       - cosmo
     css: styles.css
     toc: true
-
+  # Uncomment the following lines if you want Jupyter notebooks as output
+  # ipynb: 
+  #   output: false
+  
 filters:
   - export-metadata.lua
 
