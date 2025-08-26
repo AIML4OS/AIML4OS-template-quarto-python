@@ -1,7 +1,7 @@
 [project]
-name = "aiml4os-template-quarto-r"
+name = "aiml4os-template-quarto-python"
 version = "0.1.0"
-description = "Add your description here"
+description = "A basic project template for Python"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
