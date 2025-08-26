@@ -4,5 +4,5 @@ This repository provides a clean and modular template to build tutorials for pro
 
 ## Usage
 
-➡️ See [this tutorial](https://inseefrlab.github.io/formation-starting-pack/) on how to customize and deploy this template.
+➡️ See [this tutorial](https://aiml4os.github.io/training-material-starting-pack/) on how to customize and deploy this template.
 
