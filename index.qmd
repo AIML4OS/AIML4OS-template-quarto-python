@@ -1,5 +1,5 @@
 ---
-title: "Template for WP6 training material" # See below for multilingual resource
+title: "Template for Python training material" # See below for multilingual resource
 include-before-body:
   - text: <img src="resources/cover/main2.png" style="max-width:900px;width:100%"><br>
 author:
@@ -20,7 +20,7 @@ license: "CC-BY 4.0"  # Optional
 # title-fr: "Bonjour SSPCloud"
 
 description: |
-    This template is a fast starting pack for AIML4OS projects that use `R`. For `Python` projects, see [this `Github` repository](https://github.com/InseeFrLab/AIML4OS-template-quarto-python).
+    This template is a fast starting pack for AIML4OS projects that use `Python`. For `R` projects, see [this `Github` repository](https://github.com/InseeFrLab/AIML4OS-template-quarto-r).
 
 # If resources is multilingual, adopt that structure
 # (need to have both description and description-* fields)
