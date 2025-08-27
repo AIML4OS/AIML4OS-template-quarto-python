@@ -92,7 +92,7 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 
 # What is this template?
 
-This template is a Quarto Website customized for the AIML4OS project, designed to be used with {{< fa brands r-project >}}.
+This template is a Quarto Website customized for the AIML4OS project, designed to be used with {{< fa brands python >}}.
 
 # How to use it?
 
