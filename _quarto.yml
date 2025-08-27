@@ -24,10 +24,13 @@ format:
       - cosmo
     css: styles.css
     toc: true
+    code-fold: true
   # Uncomment the following lines if you want Jupyter notebooks as output
   # ipynb: 
+  # # Set this to true if you want Jupyter notebooks to contain the output of cells
   #   output: false
-  
+
+
 filters:
   - export-metadata.lua
 
