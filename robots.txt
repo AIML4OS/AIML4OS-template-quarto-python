@@ -1,1 +1,0 @@
-Sitemap: https://github.com/InseeFrLab/AIML4OS-template-quarto-python/sitemap.xml
