@@ -1,3 +1,6 @@
+#!/bin/bash
+echo "Executing the restore_environment.sh script"
+
 # Change directory
 cd $MY_REPO
 

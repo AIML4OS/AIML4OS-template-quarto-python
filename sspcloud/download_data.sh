@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Executing the download_data.sh script"
 
 # === Description ===
 # This script downloads a data file from an S3 bucket using `mc` (MinIO client)
