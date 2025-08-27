@@ -1,20 +1,22 @@
 #!/bin/bash
 
+# Get the name of the repo
+export MY_REPO=$(ls -d "/home/onyxia/work"/*/ | head -n 1 | xargs basename)
+
+# Restore the environment
+sh $MY_REPO/sspcloud/restore_environment.sh
+
+# Download data
+sh $MY_REPO/sspcloud/download_data.sh
+
+
+
 WORK_DIR="/home/onyxia/work"
 GITHUB_REPOSITORY="https://github.com/InseeFrLab/AIML4OS-template-quarto-python.git"
 NOTEBOOK_DOWNLOAD_URL="https://inseefrlab.github.io/AIML4OS-template-quarto-python/chapters/chapter1.ipynb"
 BUCKET_PATH="s3/donnees-insee/diffusion/ETAT_CIVIL/2020/DECES_COM_1019.csv"
 DEST_DIR="$HOME/work/data"
 DEST_FILE="$DEST_DIR/$(basename "$BUCKET_PATH")"
-
-
-# Download the pyproject.toml directly using git
-echo $GITHUB_REPOSITORY
-git clone --depth 1 $GITHUB_REPOSITORY temp
-
-# Install dependencies in system env
-uv pip install -r temp/pyproject.toml --system
-rm -rf temp
 
 # Download the dataset
 echo "Downloading $BUCKET_PATH to $DEST_FILE..."
