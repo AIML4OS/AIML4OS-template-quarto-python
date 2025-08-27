@@ -10,6 +10,7 @@ sh $MY_REPO/sspcloud/restore_environment.sh
 sh $MY_REPO/sspcloud/download_data.sh
 
 # Download the notebook
+export NOTEBOOK_PATH=$1
 sh $MY_REPO/sspcloud/download_notebook.sh
 
 # Ensure Quarto extension is up to date
