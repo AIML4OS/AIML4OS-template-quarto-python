@@ -1,5 +1,6 @@
 ---
 title: "Quarto Basics"
+format: [html, ipynb] # This qmd file will be compiled as HTML and as a jupyter notebook
 ---
 
 
