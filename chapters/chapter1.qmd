@@ -1,10 +1,11 @@
 ---
-title: "Quarto Basics"
+title: "A basic notebook"
 format: [html, ipynb] # This qmd file will be compiled as HTML and as a jupyter notebook
 ---
 
+# A beautiful figure
 
-For a demonstration of a line plot on a polar axis, see @fig-polar.
+This chunk shows how you can produce a beautiful figure.
 
 ```{python}
 #| label: fig-polar
@@ -24,7 +25,7 @@ ax.grid(True)
 plt.show()
 ```
 
-## Demo: Basic Pandas Table
+## A beautiful datafrmae
 
 This section demonstrates how to create and display a simple pandas DataFrame.
 
@@ -46,16 +47,18 @@ df
 
 ## A more sophisticated table
 
+This section demonstrates how to create and display a simple pandas DataFrame.
 
 ```{python}
 from great_tables import GT, html
 from great_tables.data import sza
 import polars as pl
+from polars import col as c
 import polars.selectors as cs
 
 sza_pivot = (
     pl.from_pandas(sza)
-    .filter((pl.col("latitude") == "20") & (pl.col("tst") <= "1200"))
+    .filter((c.latitude == "20") & (c.tst <= "1200"))
     .select(pl.col("*").exclude("latitude"))
     .drop_nulls()
     .pivot(values="sza", index="month", on="tst", sort_columns=True)
