@@ -7,6 +7,8 @@ project:
 website:
   page-navigation: true
   title: "Educational resource template for Python"
+  site-url: "https://github.com/InseeFrLab/AIML4OS-template-quarto-python"
+  repo-url: "https://github.com/InseeFrLab/AIML4OS-template-quarto-python"
   repo-actions: [edit, source, issue]
   sidebar:
     search: true
@@ -23,10 +25,10 @@ format:
     css: styles.css
     toc: true
     code-fold: true
-  # Uncomment the following lines if you want Jupyter notebooks as output
-  # ipynb: 
-  # # Set this to true if you want Jupyter notebooks to contain the output of cells
-  #   output: false
+  # Comment the following lines if you do not want Jupyter notebooks as output
+  ipynb: 
+  # Set this to true if you want Jupyter notebooks to contain the output of cells
+    output: false
 
 
 filters:
