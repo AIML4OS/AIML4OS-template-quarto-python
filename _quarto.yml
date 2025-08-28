@@ -25,9 +25,7 @@ format:
     css: styles.css
     toc: true
     code-fold: true
-  # Comment the following lines if you do not want Jupyter notebooks as output
   ipynb: 
-  # Set this to true if you want Jupyter notebooks to contain the output of cells
     output: false
 
 
