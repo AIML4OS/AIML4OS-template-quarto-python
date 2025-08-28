@@ -35,9 +35,9 @@ jobs:
       - name: Render
         run: uv run quarto render
 
-      # Step 4b: Render Quarto in uv virtual environment (HTML)
-      - name: Render in ipynb
-        run: uv run quarto render --to ipynb
+      # # Step 4b: Render Quarto in uv virtual environment (HTML)
+      # - name: Render in ipynb
+      #   run: uv run quarto render --to ipynb
         
       # Step 5: Publish website
       - name: Publish to GitHub Pages (and render)
