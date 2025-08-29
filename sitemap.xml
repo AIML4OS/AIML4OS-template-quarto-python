@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/InseeFrLab/AIML4OS-template-quarto-python/chapters/chapter1.html</loc>
-    <lastmod>2025-08-29T09:44:08.872Z</lastmod>
+    <loc>https://github.com/InseeFrLab/AIML4OS-template-quarto-python/index.html</loc>
+    <lastmod>2025-08-29T12:40:39.453Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/InseeFrLab/AIML4OS-template-quarto-python/index.html</loc>
-    <lastmod>2025-08-29T09:44:08.890Z</lastmod>
+    <loc>https://github.com/InseeFrLab/AIML4OS-template-quarto-python/chapters/chapter1.html</loc>
+    <lastmod>2025-08-29T12:40:39.435Z</lastmod>
   </url>
 </urlset>
