@@ -1,9 +1,10 @@
 ---
-title: "A basic notebook"
+title: "Quarto Basics"
 format: ipynb # This qmd file will be compiled as a jupyter notebook
+jupyter: python3
 ---
 
-# A beautiful figure
+## A beautiful figure
 
 This chunk shows how you can produce a beautiful figure.
 

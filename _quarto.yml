@@ -4,6 +4,7 @@ project:
     - index.qmd
     - chapters/chapter1.qmd
     - notebooks/notebook1.qmd
+    - notebooks/notebook2.qmd
 
 website:
   page-navigation: true
