@@ -3,11 +3,11 @@ project:
   render: # Add HERE new chapters and new notebooks
     - index.qmd
     - chapters/chapter1.qmd
-    - notebooks/notebook1.qmd
+    # - notebooks/notebook1.qmd
 
 website:
   page-navigation: true
-  title: "Educational resource template for Python"
+  title: "Template for training resources in Python"
   site-url: "https://github.com/InseeFrLab/AIML4OS-template-quarto-python"
   repo-url: "https://github.com/InseeFrLab/AIML4OS-template-quarto-python"
   repo-actions: [edit, source, issue]
