@@ -10,6 +10,7 @@ sh $MY_REPO/sspcloud/restore_environment.sh
 sh $MY_REPO/sspcloud/download_data.sh
 
 # Download the notebook
+# $1 is an argument giving the path of the notebook within the website (eg, notebooks/notebook1.ipynb)
 export NOTEBOOK_PATH=$1
 sh $MY_REPO/sspcloud/download_notebook.sh
 
