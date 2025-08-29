@@ -3,7 +3,7 @@ project:
   render: # Add HERE new chapters and new notebooks
     - index.qmd
     - chapters/chapter1.qmd
-    # - notebooks/notebook1.qmd
+    - notebooks/notebook1.qmd
 
 website:
   page-navigation: true
@@ -13,7 +13,7 @@ website:
   repo-actions: [edit, source, issue]
   sidebar:
     search: true
-    contents: # Add HERE new chapters
+    contents: # Add HERE new chapters (but not the notebooks)
       - href: index.qmd
         text: Introduction
       - href: chapters/chapter1.qmd
@@ -26,8 +26,8 @@ format:
     css: styles.css
     toc: true
     code-fold: true
-  ipynb: 
-    output: false
+  ipynb:
+    output: true
 
 
 filters:
