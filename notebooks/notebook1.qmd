@@ -1,6 +1,6 @@
 ---
-title: "A basic chapter"
-format: html # This qmd file will be compiled as an HTML web page
+title: "A basic notebook"
+format: ipynb # This qmd file will be compiled as a jupyter notebook
 ---
 
 # A beautiful figure

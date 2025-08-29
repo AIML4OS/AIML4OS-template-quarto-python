@@ -1,8 +1,9 @@
 project:
   type: website
-  render:
+  render: # Add HERE new chapters and new notebooks
     - index.qmd
     - chapters/chapter1.qmd
+    - notebooks/notebook1.qmd
 
 website:
   page-navigation: true
@@ -12,7 +13,7 @@ website:
   repo-actions: [edit, source, issue]
   sidebar:
     search: true
-    contents:
+    contents: # Add HERE new chapters
       - href: index.qmd
         text: Introduction
       - href: chapters/chapter1.qmd
