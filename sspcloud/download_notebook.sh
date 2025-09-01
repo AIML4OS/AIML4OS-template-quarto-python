@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Executing the download_notebook.sh script"
 
-# Retrieve the website URL
+# Retrieve the URL of the website deployed on Github Pages
 cd $MY_REPO
 export GITHUB_OWNER=$(git remote get-url origin | sed -E 's/.*github.com[:\/]([^\/]+)\/.*/\1/')
 export GH_PAGES_WEBSITE="https://${GITHUB_OWNER}.github.io/${MY_REPO}"
