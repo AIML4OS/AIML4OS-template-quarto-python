@@ -1,1 +1,1 @@
-Sitemap: https://github.com/AIML4OS/AIML4OS-template-quarto-python/sitemap.xml
+Sitemap: https://AIML4OS.github.io/AIML4OS-template-quarto-python/sitemap.xml

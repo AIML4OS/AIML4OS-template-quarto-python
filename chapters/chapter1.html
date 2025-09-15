@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -58,7 +58,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -69,14 +69,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../resources/profile/main3.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d68be38d83eca2bb035acf846ffba811.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1713c1db1ad41a796903378fc9ac7b2b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-1713c1db1ad41a796903378fc9ac7b2b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1713c1db1ad41a796903378fc9ac7b2b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -104,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
 
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
@@ -136,7 +141,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../resources/profile/main3.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../resources/profile/main3.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../resources/profile/main3.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -205,7 +211,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="cell-fig-polar" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
@@ -216,7 +222,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>ax.plot(theta, r)</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>ax.grid(<span class="va">True</span>)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display">
 <div id="fig-polar" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -237,7 +243,7 @@ Figure&nbsp;1: A line plot on a polar axis
 <div class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Name"</span>: [<span class="st">"Alice"</span>, <span class="st">"Bob"</span>, <span class="st">"Charlie"</span>],</span>
@@ -246,7 +252,7 @@ Figure&nbsp;1: A line plot on a polar axis
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div id="tbl-pandas" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="2">
 <figure class="quarto-float quarto-float-tbl figure">
@@ -258,7 +264,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <div>
 
 
-<table class="dataframe do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe do-not-create-environment cell caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -269,19 +275,19 @@ Table&nbsp;1: Simple pandas DataFrame
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
+<th data-quarto-table-cell-role="th">0</th>
 <td>Alice</td>
 <td>25</td>
 <td>Paris</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
+<th data-quarto-table-cell-role="th">1</th>
 <td>Bob</td>
 <td>30</td>
 <td>Dublin</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
+<th data-quarto-table-cell-role="th">2</th>
 <td>Charlie</td>
 <td>35</td>
 <td>Berlin</td>
@@ -299,10 +305,10 @@ Table&nbsp;1: Simple pandas DataFrame
 <section id="a-more-sophisticated-table" class="level2">
 <h2 class="anchored" data-anchor-id="a-more-sophisticated-table">A more sophisticated table</h2>
 <p>This section demonstrates how to create and display a simple pandas DataFrame.</p>
-<div id="02ef3680" class="cell" data-execution_count="3">
+<div id="90e53495" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> great_tables <span class="im">import</span> GT, html</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> great_tables <span class="im">import</span> GT, html</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> great_tables.data <span class="im">import</span> sza</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> polars <span class="im">as</span> pl</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> polars <span class="im">import</span> col <span class="im">as</span> c</span>
@@ -328,65 +334,65 @@ Table&nbsp;1: Simple pandas DataFrame
 <span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>        subtitle<span class="op">=</span>html(<span class="st">"Average monthly values at latitude of 20&amp;deg;N."</span>),</span>
 <span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    )</span>
 <span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    .sub_missing(missing_text<span class="op">=</span><span class="st">""</span>)</span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="3">
-<div id="hurngalocv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="ciyxgvqmak" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>
-#hurngalocv table {
+#ciyxgvqmak table {
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
         }
 
-#hurngalocv thead, tbody, tfoot, tr, td, th { border-style: none; }
+#ciyxgvqmak thead, tbody, tfoot, tr, td, th { border-style: none; }
  tr { background-color: transparent; }
-#hurngalocv p { margin: 0; padding: 0; }
- #hurngalocv .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
- #hurngalocv .gt_caption { padding-top: 4px; padding-bottom: 4px; }
- #hurngalocv .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
- #hurngalocv .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
- #hurngalocv .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
- #hurngalocv .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
- #hurngalocv .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
- #hurngalocv .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
- #hurngalocv .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
- #hurngalocv .gt_column_spanner_outer:first-child { padding-left: 0; }
- #hurngalocv .gt_column_spanner_outer:last-child { padding-right: 0; }
- #hurngalocv .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
- #hurngalocv .gt_spanner_row { border-bottom-style: hidden; }
- #hurngalocv .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
- #hurngalocv .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
- #hurngalocv .gt_from_md> :first-child { margin-top: 0; }
- #hurngalocv .gt_from_md> :last-child { margin-bottom: 0; }
- #hurngalocv .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
- #hurngalocv .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; }
- #hurngalocv .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
- #hurngalocv .gt_row_group_first td { border-top-width: 2px; }
- #hurngalocv .gt_row_group_first th { border-top-width: 2px; }
- #hurngalocv .gt_striped { background-color: rgba(128,128,128,0.05); }
- #hurngalocv .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
- #hurngalocv .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
- #hurngalocv .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
- #hurngalocv .gt_left { text-align: left; }
- #hurngalocv .gt_center { text-align: center; }
- #hurngalocv .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
- #hurngalocv .gt_font_normal { font-weight: normal; }
- #hurngalocv .gt_font_bold { font-weight: bold; }
- #hurngalocv .gt_font_italic { font-style: italic; }
- #hurngalocv .gt_super { font-size: 65%; }
- #hurngalocv .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
- #hurngalocv .gt_asterisk { font-size: 100%; vertical-align: 0; }
+#ciyxgvqmak p { margin: 0; padding: 0; }
+ #ciyxgvqmak .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #ciyxgvqmak .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #ciyxgvqmak .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #ciyxgvqmak .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #ciyxgvqmak .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #ciyxgvqmak .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #ciyxgvqmak .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #ciyxgvqmak .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #ciyxgvqmak .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #ciyxgvqmak .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #ciyxgvqmak .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #ciyxgvqmak .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #ciyxgvqmak .gt_spanner_row { border-bottom-style: hidden; }
+ #ciyxgvqmak .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #ciyxgvqmak .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #ciyxgvqmak .gt_from_md> :first-child { margin-top: 0; }
+ #ciyxgvqmak .gt_from_md> :last-child { margin-bottom: 0; }
+ #ciyxgvqmak .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #ciyxgvqmak .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; }
+ #ciyxgvqmak .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #ciyxgvqmak .gt_row_group_first td { border-top-width: 2px; }
+ #ciyxgvqmak .gt_row_group_first th { border-top-width: 2px; }
+ #ciyxgvqmak .gt_striped { background-color: rgba(128,128,128,0.05); }
+ #ciyxgvqmak .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #ciyxgvqmak .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #ciyxgvqmak .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #ciyxgvqmak .gt_left { text-align: left; }
+ #ciyxgvqmak .gt_center { text-align: center; }
+ #ciyxgvqmak .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #ciyxgvqmak .gt_font_normal { font-weight: normal; }
+ #ciyxgvqmak .gt_font_bold { font-weight: bold; }
+ #ciyxgvqmak .gt_font_italic { font-style: italic; }
+ #ciyxgvqmak .gt_super { font-size: 65%; }
+ #ciyxgvqmak .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #ciyxgvqmak .gt_asterisk { font-size: 100%; vertical-align: 0; }
  
 </style>
 
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_heading header">
-<th colspan="15" class="gt_heading gt_title gt_font_normal">Solar Zenith Angles from 05:30 to 12:00</th>
+<td colspan="15" class="gt_heading gt_title gt_font_normal">Solar Zenith Angles from 05:30 to 12:00</td>
 </tr>
 <tr class="gt_heading even">
-<th colspan="15" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border">Average monthly values at latitude of 20°N.</th>
+<td colspan="15" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border">Average monthly values at latitude of 20°N.</td>
 </tr>
 <tr class="gt_col_headings header">
 <th class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
@@ -408,7 +414,7 @@ Table&nbsp;1: Simple pandas DataFrame
 </thead>
 <tbody class="gt_table_body">
 <tr class="odd">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">jan</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">jan</th>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
@@ -425,7 +431,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #fffbf4">43.0</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">feb</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">feb</th>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #6a389b">88.9</td>
@@ -442,7 +448,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #ffefd3">37.2</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">mar</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">mar</th>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #7546a3">85.7</td>
@@ -459,7 +465,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #ffdc9d">27.7</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">apr</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">apr</th>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #6b3a9c">88.5</td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #835aac">81.5</td>
@@ -476,7 +482,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #ffc458">15.5</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">may</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">may</th>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #774aa4">85.0</td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #8e68b4">78.2</td>
@@ -493,7 +499,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #ffaf1c">5.0</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">jun</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">jun</th>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #69379b">89.2</td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #7f54aa">82.7</td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #9672b9">76.0</td>
@@ -510,7 +516,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #ffa90b">2.0</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">jul</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">jul</th>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #6a389c">88.8</td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #8056aa">82.3</td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #9774b9">75.7</td>
@@ -527,7 +533,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #ffab12">3.1</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">aug</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">aug</th>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #7b4fa7">83.8</td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #926db6">77.1</td>
@@ -544,7 +550,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #ffa90b">1.9</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">sep</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">sep</th>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #70409f">87.2</td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #875faf">80.2</td>
@@ -561,7 +567,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #ffbc42">11.6</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">oct</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">oct</th>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #7a4ea6">84.1</td>
@@ -578,7 +584,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #ffd383">23.1</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">nov</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">nov</th>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #FFFFFF; background-color: #6d3d9e">87.8</td>
@@ -595,7 +601,7 @@ Table&nbsp;1: Simple pandas DataFrame
 <td class="gt_row gt_right" style="color: #000000; background-color: #ffeac3">34.4</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">dec</td>
+<th class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" style="color: #000000; background-color: #FFFFFF">dec</th>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
 <td class="gt_row gt_right" style="color: #000000; background-color: #FFFFFF"></td>
@@ -675,13 +681,14 @@ Table&nbsp;1: Simple pandas DataFrame
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -696,7 +703,7 @@ Table&nbsp;1: Simple pandas DataFrame
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/github\.com\/AIML4OS\/AIML4OS-template-quarto-python");
+        var filterRegex = new RegExp("https:\/\/AIML4OS\.github\.io\/AIML4OS-template-quarto-python\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
