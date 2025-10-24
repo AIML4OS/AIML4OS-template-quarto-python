@@ -8,6 +8,10 @@ project:
 website:
   page-navigation: true
   title: "Template for training resources in Python"
+  # In the two URLs below:
+  # - replace AIML4OS by the Github account/organization your repository is hosted by;
+  # - replace AIML4OS-template-quarto-python by the name of your repository.
+  # If your repo is on the AIML4OS organization, change only the name of the repo.
   site-url: "https://AIML4OS.github.io/AIML4OS-template-quarto-python/"
   repo-url: "https://github.com/AIML4OS/AIML4OS-template-quarto-python"
   repo-actions: [edit, source, issue]
