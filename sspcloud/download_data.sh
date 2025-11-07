@@ -13,8 +13,8 @@ mkdir -p "$DEST_DIR"
 # === Download all data files ===
 # You can modify the list of files
 FILES=(
-    "s3/donnees-insee/diffusion/ETAT_CIVIL/2020/DECES_COM_1019.csv"
-    "s3/donnees-insee/diffusion/ETAT_CIVIL/2020/NAISSANCES_COM_1019.csv"
+    "https://minio.lab.sspcloud.fr/oliviermeslin/AIML4OS/ETAT_CIVIL/2020/DECES_COM_1019.csv"
+    "https://minio.lab.sspcloud.fr/oliviermeslin/AIML4OS/ETAT_CIVIL/2020/NAISSANCES_COM_1019.csv"
 )
 
 # Function to download with retry
