@@ -7,4 +7,5 @@ export MY_REPO=$(ls -d "/home/onyxia/work"/*/ | head -n 1 | xargs basename)
 sh $MY_REPO/sspcloud/restore_environment.sh
 
 # Download data
-sh $MY_REPO/sspcloud/download_data.sh
+# This script is run with bash because there is a bash array
+bash $MY_REPO/sspcloud/download_data.sh
