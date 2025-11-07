@@ -1,5 +1,6 @@
 project:
   type: website
+  execute-dir: project
   render: # Add HERE new chapters and new notebooks
     - index.qmd
     - chapters/chapter1.qmd
