@@ -10,11 +10,16 @@ DEST_DIR="$HOME/work/data"
 # Ensure destination folder exists
 mkdir -p "$DEST_DIR"
 
+# === S3 settings ===
+
+# Configure alias for the public S3 endpoint (anonymous access)
+mc alias set s3 https://minio.lab.sspcloud.fr "" ""
+
 # === Download all data files ===
 # You can modify the list of files
 FILES=(
-    "https://minio.lab.sspcloud.fr/oliviermeslin/AIML4OS/ETAT_CIVIL/2020/DECES_COM_1019.csv"
-    "https://minio.lab.sspcloud.fr/oliviermeslin/AIML4OS/ETAT_CIVIL/2020/NAISSANCES_COM_1019.csv"
+    "s3/oliviermeslin/AIML4OS/ETAT_CIVIL/2020/DECES_COM_1019.csv"
+    "s3/oliviermeslin/AIML4OS/ETAT_CIVIL/2020/NAISSANCES_COM_1019.csv"
 )
 
 # Function to download with retry
