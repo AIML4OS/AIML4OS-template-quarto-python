@@ -1,4 +1,7 @@
+# Quarto
 _site/
+**/*.quarto_ipynb
+*.json
 
 # History files
 .Rhistory
